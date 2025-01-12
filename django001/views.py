@@ -12,3 +12,6 @@ def name(request):
 def about(request):
     return HttpResponse('Nimish Prakash')
 
+def db(request):
+    return HttpResponse('Database')
+
