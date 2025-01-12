@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 def home(request):
     # return HttpResponse('Hello this is my first Django Project')
-    return render(request, 'templates01/index.ht4ml')
+    return render(request, 'templates01/index.html')
 
 def name(request):
     return HttpResponse('Project name - django001')
